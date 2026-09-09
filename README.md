@@ -1,0 +1,1 @@
+In order to start this container type 'docker compose up -d' in a terminal
