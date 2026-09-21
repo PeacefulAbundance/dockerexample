@@ -1,6 +1,9 @@
 services:
   web:
-    image: nginx:alpine
+    container_name: ISIT300-3-Echevarria
+    image: nginx 
     ports:
-    - "8080:80"
+      - 8080:80
+    volumes:
+      - ./web:/usr/share/nginx/html
    
